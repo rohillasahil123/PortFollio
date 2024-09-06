@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-[80px]"></div>
-      <div className="flex justify-around h-[100vh] w-full text-white ">
+      <div className="flex justify-around h-[90vh] w-full text-white ">
         <div className="w-[40%] h-[80%] ml-12 ">
           <div>
             <h1 className="text-5xl font-semibold">Hi, it's </h1>
