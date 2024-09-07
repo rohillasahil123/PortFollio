@@ -3,8 +3,9 @@ import React from "react";
 const Education = () => {
   return (
     <>
-      <div className="text-white h-[900px] w-full mx-auto items-center flex flex-col   ">
-          <h1 className="text-[60px] uppercase font-bold">Education</h1>
+      <div className="text-white h-[850px] w-full mx-auto items-center flex flex-col   ">
+      <div className="h-[10vh]" ></div>
+          <h1 className="text-[60px] uppercase font-bold">E<span className="text-orange-500">d</span>ucati<span className="text-orange-500">o</span>n</h1>
           <div className="h-[6%] w-1 bg-teal-500"></div>
           <div className="w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-t-[20px] border-t-teal-500"></div>
           <div className=" border h-[80px] w-[70%] items-center text-center mt-2 rounded-lg  hover:cursor-pointer  hover:shadow-[0_0_30px_15px_rgba(0,255,255,0.5)] hover:text-teal-500 transition-transform hover:scale-105  ">

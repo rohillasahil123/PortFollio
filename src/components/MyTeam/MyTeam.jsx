@@ -5,8 +5,9 @@ import data from "../Data/Data.js";
 const MyTeam = () => {
   return (
     <div className="h-[100vh] w-full text-center text-white">
+      <div className="h-[10vh]"></div>
       <div className="w-full h-[90vh] ">
-        <h1 className="font-bold uppercase text-5xl mt-16">My Team</h1>
+        <h1 className="font-bold uppercase text-5xl ">My <span className="text-teal-500">T</span>eam</h1>
         <div className="flex mt-20 space-x-28 text-center justify-center rounded-2xl ">
           {data.map((item) => (
             <div

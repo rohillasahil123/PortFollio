@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -7,11 +8,11 @@ const Header = () => {
         <div className='font-bold text-3xl hover:underline hover:cursor-pointer hover:text-shadow-teal  '>Sahil <span className=' text-teal-400 '>Rohilla</span></div>
       </div>
       <div className='flex h-full space-x-12 text-lg items-center '>
-       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'>Home</div>
-        <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'>Education</div>  
-       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'>Service</div>   
-       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'> MyTeamCoder </div>
-       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'> Contect </div> 
+       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'><Link to='/'>Home</Link>  </div>
+        <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'><Link to='/education'>Education</Link></div>  
+       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'> <Link to='/service'>Service</Link></div>   
+       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'> <Link to='/myteam'>MyTeamCoder</Link> </div>
+       <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'> <Link to='/contect'>Contect</Link> </div> 
       </div>
     </div>
   )
