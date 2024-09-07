@@ -1,4 +1,6 @@
+import axios from "axios";
 import React, { useState } from "react";
+import toast from "react-hot-toast";
 
 const Contect = () => {
   const [obj, setObj] = useState({
@@ -15,8 +17,14 @@ const Contect = () => {
   };
 
   const handelSubmit = (e) => {
-    e.preventDefault();
-    console.log(obj); // Log the form data correctly
+    e.preventDefault();  
+    const responce = axios.post("http://localhost:8010/formData", obj);
+    if (!responce.status == 200) {
+     toast.error("Dont save")
+    }else{
+      toast.success("Form submitted successfully");
+    }
+   console.log(obj);
   };
 
   return (
@@ -27,7 +35,7 @@ const Contect = () => {
         <div className="w-[50%] h-[80%] items-center text-center flex flex-col space-y-8">
           <input
             type="text"
-            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200"
+            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200 hover:cursor-pointer"
             placeholder="Enter Your Name"
             value={obj.name}
             name="name"
@@ -35,7 +43,7 @@ const Contect = () => {
           />
           <input
             type="text"
-            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200"
+            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200 hover:cursor-pointer"
             placeholder="Phone Number"
             value={obj.phoneNumber}
             name="phoneNumber"
@@ -43,7 +51,7 @@ const Contect = () => {
           />
           <input
             type="text"
-            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200"
+            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200 hover:cursor-pointer"
             placeholder="Email"
             value={obj.email}
             name="email"
@@ -51,7 +59,7 @@ const Contect = () => {
           />
           <input
             type="text"
-            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200"
+            className="mt-3 bg-black border-b-2 border-teal-500 w-[300px] h-[30px] text-gray-200 hover:cursor-pointer"
             placeholder="Subject"
             value={obj.subject}
             name="subject"
@@ -63,7 +71,7 @@ const Contect = () => {
             name="message"
             cols="40"
             rows="7"
-            className="bg-black text-gray-200 border border-teal-500 rounded-2xl mt-8"
+            className="bg-black text-gray-200 border border-teal-500 rounded-2xl mt-8 hover:cursor-pointer"
             placeholder="Message"
             value={obj.message}
             onChange={handelInput}

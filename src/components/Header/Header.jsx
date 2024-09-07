@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='h-14 w-full  bg-transparent  text-white flex justify-around  items-center fixed  backdrop-blur-xl  '>
       <div>
-        <div className='font-bold text-3xl hover:underline hover:cursor-pointer hover:text-shadow-teal  '>Sahil <span className=' text-teal-400 '>Rohilla</span></div>
+        <div className='font-bold text-3xl hover:underline hover:cursor-pointer hover:text-shadow-teal  '> <Link to='/' >Sahil <span className=' text-teal-400 '>Rohilla</span></Link></div>
       </div>
       <div className='flex h-full space-x-12 text-lg items-center '>
        <div className='hover:underline hover:cursor-pointer  hover:text-teal-400'><Link to='/'>Home</Link>  </div>

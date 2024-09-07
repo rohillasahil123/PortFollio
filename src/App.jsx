@@ -7,6 +7,7 @@ import Contect from './components/Contect/Contect'
 import { BrowserRouter ,Routes , Route } from 'react-router-dom';
 import HomeNew from './components/Home/HomeNew'
 import Footer from './components/Footer/Footer'
+import { Toaster } from 'react-hot-toast'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
      <Route path="/contect" element={<Contect/>} />
      </Routes>
      <Footer/>
+     <Toaster/>
      </BrowserRouter>
     </div>
   )
