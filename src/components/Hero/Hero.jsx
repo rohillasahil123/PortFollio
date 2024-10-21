@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-[80px]"></div>
-      <div className="flex flex-col lg:flex-row justify-around h-[90vh] w-full text-white p-5 lg:p-0">
+      <div className="flex flex-col lg:flex-row justify-around h-auto w-full text-white p-5 lg:p-0">
         <div className="lg:w-[40%] w-full h-auto lg:h-[80%] ml-0 lg:ml-12">
           <div>
             <h1 className="text-4xl lg:text-5xl font-semibold">Hi, it's </h1>

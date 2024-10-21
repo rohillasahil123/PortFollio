@@ -4,7 +4,7 @@ const Service = () => {
   return (
     <div className="min-h-screen w-full flex flex-col justify-center items-center text-center text-white">
       <div className="h-[10vh]"></div>
-      <div className="h-[70%] w-full flex flex-col justify-center items-center">
+      <div className="h-auto w-full flex flex-col justify-center items-center">
         <h1 className="text-4xl sm:text-5xl uppercase font-bold">
           Ser<span className="text-yellow-500">v</span>ice
         </h1>

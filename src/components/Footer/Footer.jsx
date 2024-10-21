@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='text-center h-[12vh] w-full items-center justify-center flex backdrop-blur-xl'>
+    <div className='text-center h-auto w-full items-center justify-center flex backdrop-blur-xl'>
       <div className='flex flex-col sm:flex-row h-full space-y-4 sm:space-y-0 sm:space-x-6 md:space-x-12 text-base sm:text-lg items-center text-white'>
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/'>Home</Link>
