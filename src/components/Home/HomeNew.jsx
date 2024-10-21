@@ -1,20 +1,39 @@
-import React from 'react'
-import Education from '../Education/Education'
-import Service from '../Service/Service'
-import MyTeam from '../MyTeam/MyTeam'
-import Contect from '../Contect/Contect'
-import Hero from '../Hero/Hero'
+import React from 'react';
+import Education from '../Education/Education';
+import Service from '../Service/Service';
+import MyTeam from '../MyTeam/MyTeam';
+import Contect from '../Contect/Contect';
+import Hero from '../Hero/Hero';
 
 const HomeNew = () => {
   return (
-    <div>
-        <Hero/>
-        <Education/>
-        <Service/>
-        <MyTeam/>
-        <Contect/>
-    </div>
-  )
-}
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <div className="pb-10">
+        <Hero />
+      </div>
 
-export default HomeNew
+      {/* Education Section */}
+      <div className="pb-10">
+        <Education />
+      </div>
+
+      {/* Service Section */}
+      <div className="pb-10">
+        <Service />
+      </div>
+
+      {/* MyTeam Section */}
+      <div className="pb-10">
+        <MyTeam />
+      </div>
+
+      {/* Contect Section */}
+      <div className="pb-10">
+        <Contect />
+      </div>
+    </div>
+  );
+};
+
+export default HomeNew;
