@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeNew from './components/Home/HomeNew';
 import Footer from './components/Footer/Footer';
 import { Toaster } from 'react-hot-toast';
+import Project from './components/Project/Project';
 
 const App = () => {
   return (
@@ -19,8 +20,9 @@ const App = () => {
             <Route path="/" element={<HomeNew />} />
             <Route path="/education" element={<Education />} />
             <Route path="/service" element={<Service />} />
-            <Route path="/myteam" element={<MyTeam />} />
+           <Route path="/myteam" element={<MyTeam />} />
             <Route path="/contect" element={<Contect />} />
+            <Route path="/project" element={<Project />} />
           </Routes>
         </main>
         <Footer />

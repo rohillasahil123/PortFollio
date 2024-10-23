@@ -1,7 +1,32 @@
 import React from "react";
-import data from "../Data/Data.js";
 
 const MyTeam = () => {
+  const data = [
+    {
+        "id": 1,
+       "image":"src/assets/boy.png",
+        "name": "Harsh Gera",
+        "Title":"MERN Stack Devloper",
+        "Edu":" A MERN Stack Developer specializes in building web applications using MongoDB, Express.js, React, and Node.js.They handle both frontend and backend development, create APIs."
+    },
+    {
+        "id": 1,
+       "image":"src/assets/woman.png",
+        "name": "Nehe Verma",
+        "Title":"Backend Devloper",
+        "Edu":"  A Back-End Devloper focuses on server-side logic, databases,and API integration. They work with technologies like Node.js, databases, and server architecture to handle data storage, security."
+    },
+    {
+        "id": 1,
+       "image":"src/assets/boy.png",
+        "name": "Aman Kumar",
+        "Title":"FrountEnd Devloper ",
+        "Edu":" A Frontend Developer is responsible for creating the visual and interactive aspects of a website or web application.Frontend developers specialize in HTML, CSS, and JavaScript & React"
+    }
+]
+
+
+
   return (
     <div className="min-h-screen w-full text-center text-white">
       <div className="h-[10vh]"></div>
@@ -10,14 +35,14 @@ const MyTeam = () => {
         <div className="flex flex-wrap  mt-10 justify-around space-y-10 lg:space-y-0 lg:space-x-10">
           {data.map((item) => (
             <div
-              className="h-[350px] w-[80%] sm:w-[45%] md:w-[30%] lg:w-[20%] border rounded-xl hover:shadow-[0_0_30px_15px_rgba(0,255,255,0.5)] hover:cursor-pointer transition-transform hover:scale-105 p-4 mx-auto"
+              className="h-auto w-[80%] sm:w-[45%] md:w-[30%] space-y-6 lg:w-[40%] border rounded-xl hover:shadow-[0_0_30px_15px_rgba(0,255,255,0.5)] hover:cursor-pointer transition-transform hover:scale-105 mx-auto p-4 "
               key={item._id}
             >
               {item.image ? (
                 <img
                   src={item.image}
                   alt={item.name || "Image"}
-                  className="h-[100px] w-[100px] object-cover mx-auto mt-4"
+                  className="h-[100px] w-[100px] object-cover mx-auto  mt-4"
                 />
               ) : (
                 <p>No Image Available</p>

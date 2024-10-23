@@ -4,6 +4,7 @@ import Service from '../Service/Service';
 import MyTeam from '../MyTeam/MyTeam';
 import Contect from '../Contect/Contect';
 import Hero from '../Hero/Hero';
+import Project from '../Project/Project';
 
 const HomeNew = () => {
   return (
@@ -28,10 +29,15 @@ const HomeNew = () => {
         <MyTeam />
       </div>
 
+      <div className="pb-10">
+        <Project />
+      </div>
+
       {/* Contect Section */}
       <div className="pb-10">
         <Contect />
       </div>
+  
     </div>
   );
 };

@@ -23,8 +23,12 @@ const Header = () => {
           <Link to='/myteam'>MyTeamCoder</Link>
         </div>
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
+          <Link to='/project'>Project</Link>
+        </div>
+        <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/contect'>Contact</Link>
         </div>
+       
       </div>
       {/* Mobile Menu Icon */}
       <div className='sm:hidden'>
