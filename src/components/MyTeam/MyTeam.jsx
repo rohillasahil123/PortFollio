@@ -4,21 +4,21 @@ const MyTeam = () => {
   const data = [
     {
         "id": 1,
-       "image":"C:/Users/Unique Computer/OneDrive/Desktop/coding/PortFollio/src/assets/boy.png",
+       "image":"src/assets/boy.png",
         "name": "Harsh Gera",
         "Title":"MERN Stack Devloper",
         "Edu":" A MERN Stack Developer specializes in building web applications using MongoDB, Express.js, React, and Node.js.They handle both frontend and backend development, create APIs."
     },
     {
         "id": 2,
-       "image":"C:/Users/Unique Computer/OneDrive/Desktop/coding/PortFollio/src/assets/woman.png",
+       "image":"src/assets/woman.png",
         "name": "Nehe Verma",
         "Title":"Backend Devloper",
         "Edu":"  A Back-End Devloper focuses on server-side logic, databases,and API integration. They work with technologies like Node.js, databases, and server architecture to handle data storage, security."
     },
     {
         "id": 3,
-       "image":"C:/Users/Unique Computer/OneDrive/Desktop/coding/PortFollio/src/assets/boy.png",
+       "image":"src/assets/boy.png",
         "name": "Aman Kumar",
         "Title":"FrountEnd Devloper ",
         "Edu":" A Frontend Developer is responsible for creating the visual and interactive aspects of a website or web application.Frontend developers specialize in HTML, CSS, and JavaScript & React"
