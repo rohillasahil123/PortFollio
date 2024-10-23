@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { Link } from "react-router-dom";
-import sahilPhoto from "../../assets/Sahil.png";
+import sahilPhoto from "../../assets/Sahil1.png";
 
 const Hero = () => {
   const devloperTool = [
