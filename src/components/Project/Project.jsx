@@ -10,8 +10,8 @@ const Project = () => {
             <div className="w-full text-center" >
                 <h1 className="font-bold uppercase text-white text-4xl sm:text-5xl">Pr<span className="text-orange-500">oj</span>ect</h1>
                 <p className=' font-medium text-orange-500'>Some Our Main Projects</p></div>
-            <div className='flex flex-col md:flex-row text-white justify-around text-center md:space-x-0 '>
-                <div className='h-[400px] w-[90%]   md:w-[30%] border rounded-lg  space-y-5 items-center hover:shadow-[0_0_30px_15px_rgba(0,255,255,255)] hover:cursor-pointer transition-transform hover:scale-105  '>
+            <div className='flex flex-wrap text-white  mt-10 justify-around space-y-10 lg:space-y-0 lg:space-x-10'>
+                <div className='h-[400px] w-[90%] md:w-[30%] border rounded-lg  space-y-5 items-center hover:shadow-[0_0_30px_15px_rgba(0,255,255,255)] hover:cursor-pointer transition-transform hover:scale-105  '>
                     <h1 className='font-bold text-2xl'>
                         e-commerce website
                     </h1>
