@@ -28,14 +28,14 @@ const MyTeam = () => {
 
 
   return (
-    <div className="min-h-screen w-full text-center text-white">
+    <div className="min-auto w-full text-center text-white">
       <div className="h-[10vh]"></div>
-      <div className="w-full">
+      <div className="w-[90%]">
         <h1 className="font-bold uppercase text-4xl sm:text-5xl">My <span className="text-teal-500">T</span>eam</h1>
-        <div className="flex flex-wrap  mt-10 justify-around space-y-10 lg:space-y-0 lg:space-x-10">
+        <div className="flex flex-wrap  mt-5 justify-around space-y-6 lg:space-y-0 lg:space-x-5 ">
           {data.map((item) => (
             <div
-              className="h-auto w-[80%] sm:w-[45%] md:w-[30%] space-y-6 lg:w-[40%] border rounded-xl hover:shadow-[0_0_30px_15px_rgba(0,255,255,0.5)] hover:cursor-pointer transition-transform hover:scale-105 mx-auto p-4 "
+              className="h-auto w-[80%] sm:w-[45%] md:w-[30%] space-y-4 lg:w-[40%] border rounded-xl hover:shadow-[0_0_30px_15px_rgba(0,255,255,0.5)] hover:cursor-pointer transition-transform hover:scale-105 mx-auto "
               key={item._id}
             >
               {item.image ? (
