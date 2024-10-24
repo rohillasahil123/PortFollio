@@ -34,11 +34,11 @@ const Project = () => {
                         Quiz-Application
                     </h1>
                     <img src={QuizApplication} alt="" srcset="" className='rounded-lg h-[100px] w-[200px] object-cover mx-auto  mt-4 hover:shadow-[0_0_30px_15px_rgba(35,15,0.5)] hover:cursor-pointer transition-transform hover:scale-105  ' />
-                    <p>This Book Store website offers a sleek, responsive frontend built with HTML, CSS, JavaScript and React. Users can browse through categories, search for books, view details, and add them to their cart. The design prioritizes simplicity, easy navigation, and a smooth shopping experience across devices   .</p>
+                    <p>A Quiz Application allows users to participate in various quizzes, testing their knowledge across multiple topics. Users can answer multiple-choice questions, track their scores, and compete with others on leaderboards. The app provides immediate feedback, rewards achievements, and offers personalized quizzes to improve learning and engagement.</p>
                 </div>
             </div>
         </div>
     )
 }
-
+    
 export default Project
