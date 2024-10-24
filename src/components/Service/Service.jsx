@@ -13,7 +13,7 @@ const Service = () => {
           Ser<span className="text-yellow-500">v</span>ice
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full px-4">
-          <div className="h-auto w-full border rounded-lg space-y-3 p-4">
+          <div className="h-auto w-full border rounded-lg space-y-3 p-4  hover:shadow-[0_0_30px_15px_rgba(0,255,255,255)] hover:cursor-pointer transition-transform hover:scale-105">
             <h1 className="font-bold text-xl">Front-End Developer</h1>
             <img
               src={frontend}
@@ -28,7 +28,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="h-auto w-full border rounded-lg space-y-3 p-4">
+          <div className="h-auto w-full border rounded-lg space-y-3 p-4  hover:shadow-[0_0_30px_15px_rgba(0,255,255,255)] hover:cursor-pointer transition-transform hover:scale-105">
             <h1 className="font-bold text-xl">Back-End Developer</h1>
             <img
               src={Backend}
@@ -42,7 +42,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="h-auto w-full border rounded-lg space-y-3 p-4">
+          <div className="h-auto w-full border rounded-lg space-y-3 p-4  hover:shadow-[0_0_30px_15px_rgba(0,255,255,255)] hover:cursor-pointer transition-transform hover:scale-105">
             <h1 className="font-bold text-xl">Software Testing</h1>
             <img
               src={software}
@@ -56,7 +56,7 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="h-auto w-full border rounded-lg space-y-3 p-4">
+          <div className="h-auto w-full border rounded-lg space-y-3 p-4  hover:shadow-[0_0_30px_15px_rgba(0,255,255,255)] hover:cursor-pointer transition-transform hover:scale-105 ">
             <h1 className="font-bold text-xl">Web Design</h1>
             <img
               src={Webdesign}
