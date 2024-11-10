@@ -41,7 +41,7 @@ const MyTeam = () => {
               {item.image ? (
                 <img
                   src={item.image}
-                  alt={item.name}
+                  alt=''
                   className="h-[100px] w-[100px] object-cover mx-auto  mt-4"
                 />
               ) : (

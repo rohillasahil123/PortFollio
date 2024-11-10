@@ -15,7 +15,7 @@ const Project = () => {
                     <h1 className='font-bold text-2xl '>
                         e-commerce website
                     </h1>
-                    <img src={ImageEcommarce} alt="" srcset="" className='rounded-lg h-[100px] w-[200px] object-cover mx-auto  mt-4 hover:shadow-[0_0_30px_15px_rgba(255,225,255)] hover:cursor-pointer transition-transform hover:scale-105  ' />
+                    <img src={ImageEcommarce} alt="" srcset="" className='rounded-lg h-[100px] w-[200px] object-cover mx-auto  mt-4 hover:shadow-[0_0_30px_15px_rgba(35,15,0.5)] hover:cursor-pointer transition-transform hover:scale-105  ' />
                     <p>This e-commerce frontend project is built using modern web technologies like HTML, CSS, JavaScript and React.
                         It features a clean, responsive design, user-friendly navigation, product listings, shopping cart functionality,
                         and checkout pages. The UI focuses on a seamless shopping experience, with smooth animations and optimized
