@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+  const [menuhandle, setMenuhandle] = useState(false)
+
+
+
   return (
     <div className='h-14 w-full bg-transparent text-white flex justify-between sm:justify-around items-center fixed backdrop-blur-xl px-4 sm:px-0'>
       <div>
@@ -16,9 +21,9 @@ const Header = () => {
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/education'>Education</Link>
         </div>
-        <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
+        
           <Link to='/service'>Service</Link>
-        </div>
+        
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/myteam'>MyTeamCoder</Link>
         </div>
@@ -28,12 +33,11 @@ const Header = () => {
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/contect'>Contact</Link>
         </div>
+        {menuhandle ? <FaTimes /> : <FaBars />}
        
       </div>
-      {/* Mobile Menu Icon */}
       <div className='sm:hidden'>
         <button className='text-teal-400 hover:text-white'>
-          {/* Replace with an icon, like a hamburger menu for mobile */}
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
           </svg>
