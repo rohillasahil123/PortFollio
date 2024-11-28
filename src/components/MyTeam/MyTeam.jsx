@@ -1,6 +1,6 @@
 import React from "react";
 import BoyImage from "../../assets/boy.png"
-import GirlImage from "../../assets/girl.png"
+import GirlImage from "../../assets/woman.png"
 
 const MyTeam = () => {
   const data = [
