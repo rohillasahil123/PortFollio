@@ -22,10 +22,10 @@ const Header = () => {
           <Link to='/education'>Education</Link>
         </div>
         
-          <Link to='/service'>Service</Link>
+        
         
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
-          <Link to='/myteam'>MyTeamCoder</Link>
+          <Link to='/myteam'>myteamCoder</Link>
         </div>
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/project'>Project</Link>

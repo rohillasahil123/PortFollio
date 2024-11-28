@@ -7,7 +7,7 @@ import Webdesign from "../../assets/WebDesign.jpeg";
 const Service = () => {
   return (
     <>
-      <Link to='/service'>Service</Link>s
+      <Link to='/service'>Service</Link>
     <div className="h-auto w-full flex flex-col justify-center items-center text-center text-white">
       <div className="h-[10vh]"></div>
       <div className="h-auto w-full flex flex-col justify-center items-center space-y-9 md:space-x-10 md:space-y-10">
