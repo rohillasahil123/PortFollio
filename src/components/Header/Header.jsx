@@ -21,9 +21,9 @@ const Header = () => {
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/education'>Education</Link>
         </div>
-        
-        
-        
+        <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
+        <Link to='/service'>Service</Link>
+        </div>  
         <div className='hover:underline hover:cursor-pointer hover:text-teal-400'>
           <Link to='/myteam'>myteamCoder</Link>
         </div>
